@@ -48,10 +48,6 @@ o = csg.nary_dnf(q, pos, neg, act, hard=True)          # occupancy of the extrac
 | `nary_dnf`, `csg_stump`, `csg_stump_minmax`, `binary_tree` | the four Boolean assemblers compared in the dissertation |
 | `TypedSlots` | learnable slots (torch module) combining the above |
 
-*Note on wedge volumes.* The dissertation's runs normalise wedges by the volume proxies `4abc` (wedge) and `2abc`
-(corner wedge); the exact volumes of these solids are `7abc` and `19/3 abc`. `volume_radius` reproduces the
-runs by default and gives the exact volumes with `exact=True`.
-
 ### `wcl.dissection` : geometric dissection (Chapter 5)
 
 ```python
