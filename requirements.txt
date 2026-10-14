@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+Pillow
+scikit-image
+shapely>=2.0
+trimesh
+torch
+tqdm
+PyMCubes
+libigl
+pymeshlab
+pymeshfix
+PyMuPDF

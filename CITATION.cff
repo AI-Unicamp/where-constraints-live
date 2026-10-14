@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the dissertation."
+title: "Where Constraints Live: code for the MSc dissertation"
+type: software
+license: MIT
+authors:
+  - family-names: "Gonçalves"
+    given-names: "Vinicius Hirono"
+    orcid: "https://orcid.org/0009-0004-2657-3613"
+    affiliation: "Universidade Estadual de Campinas (UNICAMP)"
+keywords:
+  - inverse CSG
+  - constructive solid geometry
+  - geometric dissection
+  - shape representation
+  - differentiable optimisation
+preferred-citation:
+  type: thesis
+  thesis-type: "MSc dissertation"
+  title: "Where Constraints Live: Representation in Inverse CSG and Geometric Dissection"
+  authors:
+    - family-names: "Gonçalves"
+      given-names: "Vinicius Hirono"
+      orcid: "https://orcid.org/0009-0004-2657-3613"
+  institution:
+    name: "Universidade Estadual de Campinas (UNICAMP), Faculdade de Engenharia Elétrica e de Computação"
+    city: "Campinas"
+    country: "BR"
+  year: 2026
