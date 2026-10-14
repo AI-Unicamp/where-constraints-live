@@ -85,6 +85,20 @@ The 3D meshes of Chapter 3 (Stanford Bunny, Fandisk, Rocker-arm) are downloaded 
 of the comparison with Duncan et al. (2017) are extracted from their paper, which is not redistributed. The
 winding numbers and signed distances use [libigl](https://libigl.github.io).
 
+## Acknowledgements
+
+This work stands on open-source software, and we thank its authors and maintainers:
+[PyTorch](https://pytorch.org), [NumPy](https://numpy.org), [SciPy](https://scipy.org),
+[scikit-image](https://scikit-image.org), [Shapely](https://shapely.readthedocs.io), [trimesh](https://trimesh.org),
+[libigl](https://libigl.github.io) (winding numbers, signed distances), [PyMCubes](https://github.com/pmneila/PyMCubes),
+[matplotlib](https://matplotlib.org), and Sean Barrett's [stb](https://github.com/nothings/stb) image headers.
+The test meshes come from Alec Jacobson's [common-3d-test-models](https://github.com/alecjacobson/common-3d-test-models)
+and the Stanford 3D Scanning Repository. The lattice search follows Zhou and Wang (2012) and the 2D comparison uses
+the results of Duncan et al. (2017).
+
+This study was financed in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) -
+Finance Code 001.
+
 ## License
 
 MIT (see `LICENSE`). If you use this code, please cite the dissertation (`CITATION.cff`).
