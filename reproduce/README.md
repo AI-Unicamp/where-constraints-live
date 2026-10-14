@@ -1,7 +1,8 @@
 # Reproducing the dissertation
 
 The scripts here are the ones that produced the dissertation's results, reduced to the code those runs execute
-(unused experimental code removed; the remaining code is unchanged). The library in `../wcl` is a cleaned version of
+(unused experimental code removed; the remaining code is unchanged, except that the table scripts in
+`dissection/thesis_tables/` were updated to read the deposited data). The library in `../wcl` is a cleaned version of
 the same methods and is tested to give identical results (`../tests`).
 
 Run the commands from the folder named in each section. "Data" refers to the deposited data set (see the
@@ -95,7 +96,8 @@ the learned split policy are `exp463`...`exp466` (`--help` for options).
 1. Lattice search on the 64^3 grid: `zhou3d/zhou3d.cpp` driven by `experiments/exp441_highres_bunny_sphere_piece_sweep.py`
    (N = 400, R = 100); `experiments/exp451_audit_zhou3d_labels.py` audits the labels.
 2. Shared patch complex and certificate (exp. 453). For K = 4, 5, 6 use the lattice levels `level_4pcs`,
-   `level_5pcs` and `result_6pcs` (in the data deposit) and:
+   `level_5pcs` and `result_6pcs` (data deposit, `dissection/inputs_3d/zhou3d_r64_N400_R100_L18/`) and the meshes in
+   `dissection/inputs_3d/meshes/`:
 
    ```bash
    python experiments/exp453_shared_patch_complex_baco_3d.py \
