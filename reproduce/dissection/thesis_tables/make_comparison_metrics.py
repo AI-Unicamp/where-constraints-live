@@ -33,7 +33,7 @@ import make_duncan_input_masks as mk
 import make_duncan_redraws as rd
 
 HERE = Path(__file__).resolve().parent
-REPO = HERE.parent / "trash_stock_dissection"
+REPO = HERE.parent  # reproduce/dissection; the experiment scripts write to outputs/
 BACO_OUT = REPO / "outputs" / "zhou_duncan_common_boundary_optimizer"
 TABLES = HERE / "tables"
 

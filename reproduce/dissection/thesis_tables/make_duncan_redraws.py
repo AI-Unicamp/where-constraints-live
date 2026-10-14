@@ -493,7 +493,7 @@ def main() -> None:
             # against the published panel by cross-assembly free-rotation
             # congruence: phantom texture splits merge at ~10%, real seams
             # measure 19--69%).
-            user = HERE.parent / "trash_stock_dissection" / "color_trump_usa.png"
+            user = HERE / "color_trump_usa.png"  # placed next to the paper PDF
             rgb_seg = np.asarray(Image.open(user).convert("RGB"))
             redraw_panel(rgb_seg, inputs, out, seg="palette")
             qa_rows.append((pair, rgb_seg, out))

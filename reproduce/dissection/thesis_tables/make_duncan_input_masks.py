@@ -21,7 +21,7 @@ from scipy.ndimage import binary_fill_holes, label as cc_label
 
 HERE = Path(__file__).resolve().parent
 PDF = HERE / "dt-final-paper-dissections (1).pdf"
-OUT = HERE.parent / "trash_stock_dissection" / "outputs" / "bi_assembly_inputs"
+OUT = HERE.parent / "outputs" / "bi_assembly_inputs"
 SIZE = 215
 AREA = 4800
 DPI = 300
