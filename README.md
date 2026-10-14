@@ -7,8 +7,8 @@ Code for the MSc dissertation
 
 The repository has two parts:
 
-* **`wcl/`** — a small library with the methods of the dissertation, written to be read and reused;
-* **`reproduce/`** — the scripts that produced every table and figure, with the exact commands.
+* **`wcl/`** : a small library with the methods of the dissertation, written to be read and reused;
+* **`reproduce/`** : the scripts that produced every table and figure, with the exact commands.
 
 Every function in `wcl/` is tested against the code that produced the dissertation's numbers
 (`tests/`); the tests check exact equality, not approximate agreement.
@@ -27,7 +27,7 @@ Python 3.10 or newer. The C++ lattice searches (`reproduce/dissection/experiment
 
 ## Library
 
-### `wcl.csg` — inverse CSG with typed slots (Chapter 3)
+### `wcl.csg` : inverse CSG with typed slots (Chapter 3)
 
 ```python
 import torch, wcl.csg as csg
@@ -52,7 +52,7 @@ o = csg.nary_dnf(q, pos, neg, act, hard=True)          # occupancy of the extrac
 (corner wedge); the exact volumes of these solids are `7abc` and `19/3 abc`. `volume_radius` reproduces the
 runs by default and gives the exact volumes with `exact=True`.
 
-### `wcl.dissection` — geometric dissection (Chapter 5)
+### `wcl.dissection` : geometric dissection (Chapter 5)
 
 ```python
 from wcl.dissection import lattice, baco
