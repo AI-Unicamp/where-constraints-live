@@ -22,8 +22,8 @@ python -m unittest discover tests      # about one minute
 
 Python 3.10 or newer. The C++ lattice searches (`reproduce/dissection/experiments/zhou2d.cpp`, `zhou_multi.cpp`,
 `reproduce/dissection/zhou3d/zhou3d.cpp`) are single files with no dependency besides the public-domain
-`stb_image` headers in `reproduce/dissection/zhou3d/`; build them with any C++17 compiler, e.g.
-`g++ -std=c++17 -O3 -pthread zhou3d.cpp -o zhou3d`.
+`stb_image` headers in `reproduce/dissection/zhou3d/`; build them with any C++17 compiler, you can use this for example
+`g++ -std=c++17 -O3 -pthread zhou3d.cpp -o zhou3d`!
 
 ## Library
 
