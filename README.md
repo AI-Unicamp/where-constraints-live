@@ -8,10 +8,10 @@ Code for the MSc dissertation
 The repository has two parts:
 
 * **`wcl/`** : a small library with the methods of the dissertation, written to be read and reused;
-* **`reproduce/`** : the scripts that produced every table and figure, with the exact commands.
+* **`reproduce/`** : the scripts that produced the dissertation's results, with the commands and settings of the runs.
 
-Every function in `wcl/` is tested against the code that produced the dissertation's numbers
-(`tests/`); the tests check exact equality, not approximate agreement.
+The library is tested against the code that produced the dissertation's numbers (`tests/`); the tests check
+exact equality, not approximate agreement.
 
 ## Install
 
@@ -22,8 +22,8 @@ python -m unittest discover tests      # about one minute
 
 Python 3.10 or newer. The C++ lattice searches (`reproduce/dissection/experiments/zhou2d.cpp`, `zhou_multi.cpp`,
 `reproduce/dissection/zhou3d/zhou3d.cpp`) are single files with no dependency besides the public-domain
-`stb_image` headers in `reproduce/dissection/zhou3d/`; build them with any C++17 compiler, you can use this for example
-`g++ -std=c++17 -O3 -pthread zhou3d.cpp -o zhou3d`!
+`stb_image` headers in `reproduce/dissection/zhou3d/`; build them with any C++17 compiler, for example
+`g++ -std=c++17 -O3 -pthread zhou3d.cpp -o zhou3d` (for the two 2D searches, add `-I ../zhou3d`).
 
 ## Library
 
@@ -66,13 +66,13 @@ loops = prob.unpack(baco.solve(prob))                 # one shared boundary loop
 
 ## Reproducing the dissertation
 
-See [`reproduce/README.md`](reproduce/README.md): one command per table, the settings of every run, and which
-inputs come from the data deposit.
+See [`reproduce/README.md`](reproduce/README.md): the command and settings behind each table, and which inputs come
+from the data deposit.
 
 ## Data
 
-Result data and the inputs needed to rerun the experiments are deposited separately (Zenodo / REDU; DOIs in the
-dissertation and in `CITATION.cff`).
+Result data and the inputs needed to rerun the experiments are deposited separately in REDU, the research data
+repository of UNICAMP (DOI in the dissertation).
 
 ## Third-party inputs
 

@@ -1,6 +1,6 @@
 {
   "title": "Where Constraints Live: Representation in Inverse CSG and Geometric Dissection (code)",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "upload_type": "software",
   "description": "Code accompanying the MSc dissertation 'Where Constraints Live: Representation in Inverse CSG and Geometric Dissection' (FEEC/UNICAMP, 2026): typed-slot primitive competition for inverse CSG and the budget sweep of Chapter 3; lattice search, common-boundary optimisation (BACO), the shared patch complex and its numerical validation for geometric dissection in Chapter 5.",
   "creators": [
