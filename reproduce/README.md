@@ -74,9 +74,10 @@ Run from `reproduce/dissection`. Outputs go to `outputs/`.
        --shape-a A.png --shape-b B.png --labels-a level_6pcs_A.png --labels-b level_6pcs_B.png --tag <run>
    ```
 
-3. **Tables**: `python thesis_tables/emit_latex_tables.py` (diagnostics table, reads the BACO run folders listed at
-   the top of the script) and `python thesis_tables/make_comparison_metrics.py` (comparison with Duncan et al.;
-   needs their paper's PDF, see `make_duncan_input_masks.py`).
+3. **Tables**: `python thesis_tables/emit_latex_tables.py --data <data>/dissection` writes the diagnostics table,
+   the three-shape table and the 3D piece-count table from the deposited runs; `python
+   thesis_tables/make_comparison_metrics.py` gives the comparison with Duncan et al. (needs their paper's PDF, see
+   `make_duncan_input_masks.py`).
 
 The input silhouettes were extracted from the figures of Duncan et al. (2017) and are not redistributed.
 
