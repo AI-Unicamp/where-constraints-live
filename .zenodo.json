@@ -1,12 +1,26 @@
 {
-  "title": "Where Constraints Live: code for the MSc dissertation (inverse CSG and geometric dissection)",
+  "title": "Where Constraints Live: Representation in Inverse CSG and Geometric Dissection (code)",
+  "version": "1.0.2",
   "upload_type": "software",
-  "description": "Code accompanying the MSc dissertation 'Where Constraints Live: Representation in Inverse CSG and Geometric Dissection' (UNICAMP, 2026): typed-slot primitive competition for inverse CSG and the budget sweep of Chapter 3; lattice search, common-boundary optimisation (BACO), the shared patch complex and its numerical validation for geometric dissection in Chapter 5.",
+  "description": "Code accompanying the MSc dissertation 'Where Constraints Live: Representation in Inverse CSG and Geometric Dissection' (FEEC/UNICAMP, 2026): typed-slot primitive competition for inverse CSG and the budget sweep of Chapter 3; lattice search, common-boundary optimisation (BACO), the shared patch complex and its numerical validation for geometric dissection in Chapter 5.",
   "creators": [
     {
       "name": "Gonçalves, Vinicius Hirono",
-      "affiliation": "Universidade Estadual de Campinas (UNICAMP)",
+      "affiliation": "School of Electrical and Computer Engineering (FEEC), Universidade Estadual de Campinas (UNICAMP)",
       "orcid": "0009-0004-2657-3613"
+    },
+    {
+      "name": "Costa, Paula Dornhofer Paro",
+      "affiliation": "School of Electrical and Computer Engineering (FEEC), Universidade Estadual de Campinas (UNICAMP)",
+      "orcid": "0000-0002-1534-5744"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Costa, Paula Dornhofer Paro",
+      "affiliation": "School of Electrical and Computer Engineering (FEEC), Universidade Estadual de Campinas (UNICAMP)",
+      "orcid": "0000-0002-1534-5744",
+      "type": "Supervisor"
     }
   ],
   "license": "MIT",
